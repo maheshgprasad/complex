@@ -13,8 +13,11 @@ const redisClient = redis.createClient({
 // connect to the redis client using this above strategy
 
 const sub = redisClient.duplicate();
+// make a duplicate of the redis client that
+// we have put together.
 
-// subscription to user input
+// fibonaaci function 
+// function <function name> (<its parameters>){}
 
 function fib(index){
     if (index < 2) return 1;
