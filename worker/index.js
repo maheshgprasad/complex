@@ -1,5 +1,5 @@
 const keys = require('./keys');
-// keys for connection with the redis host.
+// keys for connection with the redis server.
 
 const redis = require('redis');
 
