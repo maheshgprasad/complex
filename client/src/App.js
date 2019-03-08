@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import OtherPage from './OtherPage.js';
-import Fib from './Fib.js';
+import OtherPage from './otherpage.js';
+import Fib from './fib.js';
 
 class App extends Component {
   render() {
